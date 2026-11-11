@@ -426,7 +426,7 @@ html{scroll-behavior:smooth}
 <section class="wrap" aria-label="Contents" style="padding-top:clamp(20px,3vw,40px)">
   <div class="sec-mark"><b>00</b> Sheet index</div>
   <ul class="index-list">
-    <li><a href="#work"><span class="ix">01</span><span class="tt">Selected work</span><span class="pg">6 case studies</span></a></li>
+    <li><a href="#work"><span class="ix">01</span><span class="tt">Selected work</span><span class="pg">7 case studies</span></a></li>
     <li><a href="#experience"><span class="ix">02</span><span class="tt">Industry experience</span><span class="pg">France · China</span></a></li>
     <li><a href="#skills"><span class="ix">03</span><span class="tt">Capabilities</span><span class="pg">9 domains</span></a></li>
     <li><a href="#education"><span class="ix">04</span><span class="tt">Education</span><span class="pg">2021 — 2027</span></a></li>
@@ -439,7 +439,34 @@ html{scroll-behavior:smooth}
 <section id="work" class="wrap">
   <div class="sec-mark"><b>01</b> Selected projects</div>
   <h2 class="sec">Selected work.</h2>
-  <p class="lead">From physical prototypes to data and machine-learning models: six projects, with the decisions, results and original evidence behind each one. <em>Simulated and academic outcomes are kept distinct from physical test results.</em></p>
+  <p class="lead">From physical prototypes to data and machine-learning models: seven projects, with the decisions, results and original evidence behind each one. <em>Simulated and academic outcomes are kept distinct from physical test results.</em></p>
+
+  <!-- PROJECT 7 — rooftop PV LCA (listed first; full case study on rooftop-pv-lca.html) -->
+  <article class="proj proj--flip" id="rooftop-pv">
+    <div>
+      <div class="proj__kick">Build 07 — Sustainability · Grenoble INP–UGA · <b>2026</b></div>
+      <h3>Is rooftop solar in France reliably low-carbon?</h3>
+      <div class="proj__tag">LCA uncertainty &amp; sensitivity study · Advanced LCA, Grenoble INP–UGA · 2026</div>
+      <h4>The question</h4>
+      <p>Uncertainty and sensitivity analysis of a 7-parameter life cycle model of rooftop PV electricity.</p>
+      <h4>What the model shows</h4>
+      <p>Usually, but not everywhere. <b>One run in eight exceeds 40 g CO₂eq/kWh</b>, mostly at low-sunlight sites using energy-intensive silicon. Local irradiation and lifetime data would remove the largest share of the uncertainty.</p>
+      <div class="stats">
+        <div class="stat"><div class="v">28<span class="u">g</span></div><div class="k" style="text-transform:none;letter-spacing:.02em">CO₂eq per kWh, median of 1,000 Monte Carlo runs</div></div>
+        <div class="stat"><div class="v">17–45<span class="u">g</span></div><div class="k" style="text-transform:none;letter-spacing:.02em">90% of runs fall in this range</div></div>
+        <div class="stat"><div class="v">12.3<span class="u">%</span></div><div class="k" style="text-transform:none;letter-spacing:.02em">chance of exceeding the 40 g threshold</div></div>
+      </div>
+      <p class="note"><span class="st">NOTE</span><span>Course case study. The model structure and input ranges were provided by the course and are illustrative orders of magnitude for teaching. Analysis, results and recommendation by Muhammad Anas Raza.</span></p>
+      <div class="chips"><span class="chip">LCA</span><span class="chip">Brightway</span><span class="chip">Monte Carlo</span><span class="chip">Sobol'</span><span class="chip">Morris</span><span class="chip">Sustainability data</span></div>
+      <div class="hero__cta">
+        <a class="btn btn--fill" href="rooftop-pv-lca.html">Read the case study →</a>
+        <a class="btn" href="assets/rooftop-pv/rooftop-pv-lca-uncertainty.pdf" target="_blank" rel="noopener">Report (PDF) ↗</a>
+      </div>
+    </div>
+    <div class="proj__visual">
+      <figure class="dfig"><a href="rooftop-pv-lca.html"><img src="assets/rooftop-pv/rooftop-pv-thumbnail.png" width="3258" height="1224" style="height:auto" loading="lazy" alt="Page 1 of the report: Is rooftop solar in France reliably low-carbon? Uncertainty and sensitivity analysis of a 7-parameter life cycle model of rooftop PV electricity, with five headline figures: 28 g, 17–45 g, 12.3%, 30% and −25%."></a><figcaption>Page 1 of the report — LCA case study · Advanced Life Cycle Assessment · Grenoble INP–UGA · 2026.</figcaption></figure>
+    </div>
+  </article>
 
   <!-- PROJECT 1 -->
   <article class="proj">
